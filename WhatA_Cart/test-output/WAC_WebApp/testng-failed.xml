@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WAC_WebApp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Testcases.Footer">
+        <methods>
+          <include name="footer_AboutButton"/>
+          <include name="tearDown"/>
+          <include name="rduceCodeSetupMethod"/>
+          <include name="footer_ShoppingCart"/>
+          <include name="footer_MyAccount"/>
+          <include name="footer_Checkout"/>
+          <include name="footer_OrderHistory"/>
+          <include name="footer_TermsConditions"/>
+          <include name="footer_PrivacyPolicy"/>
+          <include name="footer_DiliveryInformation"/>
+          <include name="footer_ContactUs"/>
+          <include name="footer_JoinNewsletter"/>
+        </methods>
+      </class> <!-- com.Testcases.Footer -->
+      <class name="com.Testcases.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="rduceCodeSetupMethod"/>
+          <include name="loginWithValidCredintials"/>
+        </methods>
+      </class> <!-- com.Testcases.Login -->
+      <class name="com.Testcases.Home">
+        <methods>
+          <include name="clickHomeLink_HomePage"/>
+          <include name="reduceCodeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Testcases.Home -->
+      <class name="com.Testcases.Register">
+        <methods>
+          <include name="rduceCodeSetupMethod"/>
+          <include name="tearDown"/>
+          <include name="registerWithValidData"/>
+          <include name="registerWithBankData"/>
+        </methods>
+      </class> <!-- com.Testcases.Register -->
+      <class name="com.Testcases.Dashboard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="rduceCodeSetupMethod"/>
+          <include name="button_USD"/>
+        </methods>
+      </class> <!-- com.Testcases.Dashboard -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [WAC_WebApp] -->
