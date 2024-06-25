@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WAC_WebApp">
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="com.Testcases.Dashboard"/>
+      <class name="com.Testcases.Login"/>
+      <class name="com.Testcases.Home"/>
+      <class name="com.Testcases.Register"/>
+      <class name="com.Testcases.Footer"/>
+      <class name="com.Testcases.Forgot_pass"/>
+      <class name="com.Testcases.MyAccount"/>
+      <class name="com.Testcases.ChangPass"/>
+	  <class name="com.Testcases.MyOrder"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
